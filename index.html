@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Dr Manal T. Alalawi — Assistant Professor of Computer Science. Research in distributed systems, cloud computing, high-performance computing, parallel computing and data science.">
-  <title>Dr Manal T. Alalawi | Computer Science</title>
+  <meta name="description" content="Manal T. Alalawi — Assistant Professor of Computer Science. Research in distributed systems, cloud computing, high-performance computing, parallel computing and data science.">
+  <title>Manal T. Alalawi | Computer Science</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
@@ -244,17 +244,55 @@ footer{
   footer{flex-direction:column}
 }
 
+
+/* Final editorial refinements */
+.brand{
+  font-family:"DM Sans",Arial,sans-serif;
+  font-size:13px;
+  font-weight:500;
+  letter-spacing:.01em;
+}
+.hero h1{
+  font-size:clamp(64px,8.2vw,124px);
+  line-height:.92;
+  max-width:none;
+  white-space:nowrap;
+  letter-spacing:-.045em;
+}
+.credentials{
+  display:block;
+  margin-top:8px;
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.5;
+}
+.hero .lead{
+  max-width:850px;
+  font-size:clamp(24px,2.15vw,34px);
+}
+@media(min-width:901px){
+  .site-header nav a[href="#engagement"]{display:none}
+}
+@media(max-width:900px){
+  .brand{font-size:12px}
+  .hero h1{
+    white-space:normal;
+    font-size:17vw;
+    line-height:.9;
+  }
+}
+
 </style>
 </head>
 <body>
 <header class="site-header">
-  <a class="brand" href="#top">MTA</a>
+  <a class="brand" href="#top">Manal T. Alalawi</a>
   <nav aria-label="Primary navigation">
     <a href="#about">About</a>
     <a href="#research">Research</a>
     <a href="#publications">Publications</a>
     <a href="#teaching">Teaching</a>
-    <a href="#service">Service</a>
+    <a href="#service">Leadership &amp; Service</a>
     <a href="#engagement">Engagement</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -263,9 +301,9 @@ footer{
 <main id="top">
   <section class="hero">
     <p class="eyebrow">Computer Science · Research · Teaching</p>
-    <h1>Dr Manal T.<br>Alalawi</h1>
+    <h1>Manal T. Alalawi</h1>
     <p class="role">Assistant Professor of Computer Science<br>University of Hail</p>
-    <p class="lead">Computer scientist working across distributed systems, cloud and high-performance computing, parallel computing, and data science — with a focus on scalable, performance-aware computing.</p>
+    <p class="lead">Research interests in distributed systems, cloud and high-performance computing, parallel computing, and data science.</p>
     <div class="actions">
       <a class="button primary" href="#publications">Selected publications</a>
       <a class="button" href="https://scholar.google.com/citations?user=mav1IIwAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar ↗</a>
@@ -348,7 +386,7 @@ footer{
 </main>
 
 <footer>
-  <p>© 2026 Dr Manal T. Alalawi</p>
+  <p>© 2026 Manal T. Alalawi</p>
   <p>Assistant Professor of Computer Science</p>
 </footer>
 </body>
